@@ -1,0 +1,4 @@
+// 모든 레코드 조회하기
+
+-- 코드를 입력하세요
+SELECT * from ANIMAL_INS order by ANIMAL_ID;
