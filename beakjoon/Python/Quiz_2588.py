@@ -1,10 +1,9 @@
-A = int(input());
-B = input();
-
-temp1 = A * int(B[2]);
-temp2 = A * int(B[1]);
-temp3 = A * int(B[0]);
-temp4 = A * int(B);
-
-print(temp1, temp2, temp3, temp4, sep='\n');
-
+A = int(input())
+B = int(input())
+ 
+out1 = A*((B%100)%10)
+out2 = A*((B%100)//10)
+out3 = A*(B//100)
+res = A*B
+ 
+print(out1, out2, out3, res, sep='\n')
