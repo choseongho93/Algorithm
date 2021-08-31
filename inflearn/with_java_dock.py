@@ -1,3 +1,5 @@
+import JSON;
+
 stone_durability = [1, 2, 1, 4]
 doc = [{
     "이름" : "루비독",
@@ -37,4 +39,4 @@ def solution(stone_durability, doc):
     # return answer;
 	return [i for i in answer if i !='fail']
 
-print(solution(stone_durability, doc))
+print(solution(JSON.loads(stone_durability), doc))
